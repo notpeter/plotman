@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 from datetime import datetime
 from subprocess import call
@@ -195,4 +195,3 @@ if __name__ == "__main__":
                 elif args.cmd == 'resume':
                     print('Resuming ' + job.plot_id)
                     job.resume()
-

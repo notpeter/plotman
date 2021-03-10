@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 from datetime import datetime
 
 import logging
@@ -133,4 +131,3 @@ def select_jobs_by_partial_id(jobs, partial_id):
         if j.plot_id.startswith(partial_id):
             selected.append(j)
     return selected
-

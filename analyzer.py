@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import os
 import re
 import statistics
@@ -82,5 +80,3 @@ class LogAnalyzer:
         tab.set_max_width(int(columns))
         s = tab.draw()
         print(s)
-
-

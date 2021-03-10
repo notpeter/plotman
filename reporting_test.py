@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 from unittest.mock import patch
 
 import os
@@ -58,4 +56,3 @@ class TestReporting(unittest.TestCase):
 
         self.assertEqual('1        2  .:;!  3 !     4 ',
             reporting.job_viz(jobs))
-
